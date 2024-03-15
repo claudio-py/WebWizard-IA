@@ -82,6 +82,6 @@ http
 	})
 	.listen(parseInt(PORT))
 
-console.log(
-	`Server listening. Pages:\n - http://localhost:${PORT}\n - http://localhost:${PORT}/myChat.html`
-)
+// console.log(
+// 	`Server listening. Pages:\n - http://localhost:${PORT}\n - http://localhost:${PORT}/myChat.html`
+// )
