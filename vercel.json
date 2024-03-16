@@ -13,7 +13,7 @@
 "routes":[
    {
       "src": "/utils/(.*)",
-      "dest": "./api-handler.js"
+      "dest": "/utils/shared.js"
     },
  {
   "src":"(.*)",

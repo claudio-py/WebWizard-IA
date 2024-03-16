@@ -57,7 +57,6 @@ function scrollToBottom(elementId) {
 // ============================GEMINI-AI========================
 import {
 	getGenerativeModel,
-	scrollToDocumentBottom,
 	updateUI
 } from './shared.js'
 
