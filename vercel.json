@@ -4,14 +4,20 @@
 {
   "src": "./http-server.js",
   "use":"@vercel/node"
-  }
+  },
+   {
+      "src": "/utils/shared.js",
+      "use": "@vercel/node"
+    }
 ],
 "routes":[
+   {
+      "src": "/utils/(.*)",
+      "dest": "./api-handler.js"
+    },
  {
   "src":"(.*)",
   "dest":"./http-server.js"
   }
 ]
-
-
 }

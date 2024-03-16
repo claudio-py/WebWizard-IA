@@ -19,6 +19,7 @@ import fs from 'fs'
 import http from 'http'
 import path from 'path'
 import url from 'url'
+import 'dotenv/config'
 
 // Local port for http server to listen on
 const PORT = 9000
@@ -85,3 +86,4 @@ http
 // console.log(
 // 	`Server listening. Pages:\n - http://localhost:${PORT}\n - http://localhost:${PORT}/myChat.html`
 // )
+// http://localhost:9000/myChat.html
