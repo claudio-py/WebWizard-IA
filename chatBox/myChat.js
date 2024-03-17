@@ -1,13 +1,11 @@
-// const form = document.getElementById('bottom')
-// const input = document.getElementById('messageInput')
-// const messagesContainer = document.getElementsByClassName('messages')[0]
 const scrollMsgs = document.getElementById('messages')
 const date = new Date()
 const month = date.getMonth() + 1
 const year = date.getFullYear()
 const hours = date.getHours()
 const minutes = date.getMinutes()
-
+const lastSeen = document.getElementById('last-seen')
+lastSeen.innerText = `${month < 10? '0' + month : month}/${year}`
 
 function scrollToBottom(elementId) {
 	if (scrollMsgs) {
