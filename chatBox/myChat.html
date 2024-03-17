@@ -8,7 +8,7 @@
       rel="stylesheet"
     />
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
-    <link rel="stylesheet" href="./utils/myChat.css" />
+    <link rel="stylesheet" href="./myChat.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -32,27 +32,20 @@
         </div>
       </div>
       <div id="messages">
-        <div id="last-seen">Hoje 11:30</div>
-        <div class="messages">
-          <!-- <div class="message">
-            <div class="top">Cecília - 11:36</div>
-            <div class="body">E se a gente criasse um CHAT!?</div>
-          </div>
-           -->
-          <!-- <div class="message you">
-            <div class="top">Você - 11:40</div>
-            <div class="body">MDS, QUE ORIGINAL!!! #boraCodar</div>
-          </div> -->
-        </div>
+        <div id="last-seen">WebWizard AI Assistant</div>
+        <div id="chat-history"></div>
       </div>
-      <form id="bottom">
-        <input type="text" id="messageInput" placeholder="Digite sua mensagem" />
+      <form id="chat-form">
+        <input type="text" id="user-input" placeholder="Digite sua mensagem" />
         <button type="submit">
           <i class="ph ph-paper-plane-right"></i>
         </button>
         
       </form>
     </div>
-    <script type="module" src="./utils/myChat.js"></script>
+    <div id="loader">
+  <img src="loader.gif" width="150px" alt="Loading...">
+</div>
+    <script src="./myChat.js"></script>
   </body>
 </html>

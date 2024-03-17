@@ -2,22 +2,14 @@
 "version":2,
 "builds": [
 {
-  "src": "./http-server.js",
+  "src": "/server.js",
   "use":"@vercel/node"
-  },
-   {
-      "src": "/utils/shared.js",
-      "use": "@vercel/node"
-    }
+  }
 ],
 "routes":[
-   {
-      "src": "/utils/(.*)",
-      "dest": "/utils/shared.js"
-    },
  {
-  "src":"(.*)",
-  "dest":"./http-server.js"
+  "src":"/(.*)",
+  "dest":"/server.js" 
   }
 ]
 }
