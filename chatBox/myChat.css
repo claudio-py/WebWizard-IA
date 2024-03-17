@@ -45,7 +45,8 @@ justify-self: center;
 	align-items: center;
 	justify-content:space-between;
 	max-width: 880px;
-	padding-block: 3rem;
+	padding-bottom: 3rem;
+	padding-top: 5rem;
 }  
 
 #top {
@@ -86,9 +87,9 @@ justify-self: center;
 }
 
 #last-seen {
-	margin-top: 2.6rem;
+	/* margin-top: 2.6rem;
+	line-height: 1.4rem; */
 	font-size: 1.2rem;
-	line-height: 1.4rem;
 	text-align: center;
 }
 
