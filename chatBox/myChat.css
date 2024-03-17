@@ -15,7 +15,7 @@ body {
     background-color: #1a1924;
     color: #e1e1e6;
     /* height: 100vh; */
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 body* {
@@ -146,6 +146,7 @@ body* {
     background: #282843;
     border-radius: 999px;
     padding: 14px 24px;
+    margin-bottom: 3rem;
 }
 
 input {
